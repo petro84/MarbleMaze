@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DCE0A83D20E5CAA4005BE50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0A83C20E5CAA4005BE50D /* AppDelegate.swift */; };
-		DCE0A83F20E5CAA4005BE50D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE0A83E20E5CAA4005BE50D /* art.scnassets */; };
 		DCE0A84120E5CAA4005BE50D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0A84020E5CAA4005BE50D /* GameViewController.swift */; };
 		DCE0A84420E5CAA4005BE50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE0A84220E5CAA4005BE50D /* Main.storyboard */; };
 		DCE0A84620E5CAAB005BE50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE0A84520E5CAAB005BE50D /* Assets.xcassets */; };
 		DCE0A84920E5CAAB005BE50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE0A84720E5CAAB005BE50D /* LaunchScreen.storyboard */; };
+		DCE0A85120E5CB09005BE50D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE0A85020E5CB09005BE50D /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DCE0A83920E5CAA4005BE50D /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE0A83C20E5CAA4005BE50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCE0A83E20E5CAA4005BE50D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		DCE0A84020E5CAA4005BE50D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DCE0A84320E5CAA4005BE50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCE0A84520E5CAAB005BE50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE0A84820E5CAAB005BE50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE0A84A20E5CAAB005BE50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE0A85020E5CB09005BE50D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		DCE0A83B20E5CAA4005BE50D /* MarbleMaze */ = {
 			isa = PBXGroup;
 			children = (
+				DCE0A85020E5CB09005BE50D /* art.scnassets */,
 				DCE0A83C20E5CAA4005BE50D /* AppDelegate.swift */,
-				DCE0A83E20E5CAA4005BE50D /* art.scnassets */,
 				DCE0A84020E5CAA4005BE50D /* GameViewController.swift */,
 				DCE0A84220E5CAA4005BE50D /* Main.storyboard */,
 				DCE0A84520E5CAAB005BE50D /* Assets.xcassets */,
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE0A83F20E5CAA4005BE50D /* art.scnassets in Resources */,
 				DCE0A84920E5CAAB005BE50D /* LaunchScreen.storyboard in Resources */,
+				DCE0A85120E5CB09005BE50D /* art.scnassets in Resources */,
 				DCE0A84620E5CAAB005BE50D /* Assets.xcassets in Resources */,
 				DCE0A84420E5CAA4005BE50D /* Main.storyboard in Resources */,
 			);
