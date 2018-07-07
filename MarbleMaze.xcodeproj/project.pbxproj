@@ -12,6 +12,10 @@
 		DC09957620F031B900EC64C3 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC09957120F031B900EC64C3 /* GameHelper.swift */; };
 		DC09957720F031B900EC64C3 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC09957220F031B900EC64C3 /* SCNAction+Extensions.swift */; };
 		DC09957820F031B900EC64C3 /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC09957320F031B900EC64C3 /* CoreMotionHelper.swift */; };
+		DC4E88CE20F161DB00E06148 /* Powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC4E88CA20F161DB00E06148 /* Powerup.wav */; };
+		DC4E88CF20F161DB00E06148 /* Bump.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC4E88CB20F161DB00E06148 /* Bump.wav */; };
+		DC4E88D020F161DB00E06148 /* Reset.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC4E88CC20F161DB00E06148 /* Reset.wav */; };
+		DC4E88D120F161DB00E06148 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC4E88CD20F161DB00E06148 /* GameOver.wav */; };
 		DCE0A83D20E5CAA4005BE50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0A83C20E5CAA4005BE50D /* AppDelegate.swift */; };
 		DCE0A84120E5CAA4005BE50D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0A84020E5CAA4005BE50D /* GameViewController.swift */; };
 		DCE0A84420E5CAA4005BE50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE0A84220E5CAA4005BE50D /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 		DC09957120F031B900EC64C3 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
 		DC09957220F031B900EC64C3 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
 		DC09957320F031B900EC64C3 /* CoreMotionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
+		DC4E88CA20F161DB00E06148 /* Powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Powerup.wav; sourceTree = "<group>"; };
+		DC4E88CB20F161DB00E06148 /* Bump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bump.wav; sourceTree = "<group>"; };
+		DC4E88CC20F161DB00E06148 /* Reset.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Reset.wav; sourceTree = "<group>"; };
+		DC4E88CD20F161DB00E06148 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
 		DCE0A83920E5CAA4005BE50D /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE0A83C20E5CAA4005BE50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE0A84020E5CAA4005BE50D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +67,17 @@
 			path = GameUtils;
 			sourceTree = "<group>";
 		};
+		DC4E88C920F161DB00E06148 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DC4E88CA20F161DB00E06148 /* Powerup.wav */,
+				DC4E88CB20F161DB00E06148 /* Bump.wav */,
+				DC4E88CC20F161DB00E06148 /* Reset.wav */,
+				DC4E88CD20F161DB00E06148 /* GameOver.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		DCE0A83020E5CAA4005BE50D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,7 @@
 		DCE0A83B20E5CAA4005BE50D /* MarbleMaze */ = {
 			isa = PBXGroup;
 			children = (
+				DC4E88C920F161DB00E06148 /* Sounds */,
 				DC09956E20F031B900EC64C3 /* GameUtils */,
 				DCE0A85020E5CB09005BE50D /* art.scnassets */,
 				DCE0A83C20E5CAA4005BE50D /* AppDelegate.swift */,
@@ -149,9 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE0A84920E5CAAB005BE50D /* LaunchScreen.storyboard in Resources */,
+				DC4E88D020F161DB00E06148 /* Reset.wav in Resources */,
 				DCE0A85120E5CB09005BE50D /* art.scnassets in Resources */,
 				DCE0A84620E5CAAB005BE50D /* Assets.xcassets in Resources */,
 				DCE0A84420E5CAA4005BE50D /* Main.storyboard in Resources */,
+				DC4E88CF20F161DB00E06148 /* Bump.wav in Resources */,
+				DC4E88D120F161DB00E06148 /* GameOver.wav in Resources */,
+				DC4E88CE20F161DB00E06148 /* Powerup.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
